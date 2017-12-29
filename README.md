@@ -1,2 +1,4 @@
-# zlinskybarcamp-template
-HTML/CSS template for zlinskybarcamp-web
+Zlínský barcamp - Layout 
+========================
+
+Nakódovaný layout a grafika pro web Zlínského barcampu (https://www.zlinskybarcamp.cz/)

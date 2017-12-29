@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#001630">
+    <title>Barcamp</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900|Roboto:300,300i,400,400i,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/pure/pure.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="preload hp">
+
+<header>
+    <div class="header">
+        <div class="header-inner">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" width="310" height="70" alt="Zlínský Barcamp">
+                </a>
+            </h1>
+
+            <div class="header-nav">
+                <ul class="nav">
+                    <li class="active"><a href="index.html"><span class="nav-link">Home</span></a></li>
+                    <li><a href="#"><span class="nav-link">O akci</span></a></li>
+                    <li><a href="#program" class="scrollto"><span class="nav-link">Program</span></a></li>
+                    <li><a href="prednasky.html"><span class="nav-link">Přednášky</span></a></li>
+                    <li><a href="#"><span class="nav-link">Workshopy</span></a></li>
+                    <li><a href="#"><span class="nav-link">Afterpárty</span></a></li>
+                    <li><a href="#"><span class="nav-link">Blog</span></a></li>
+                    <li><a href="#"><span class="nav-link">Kontakt</span></a></li>
+                </ul>
+            </div>
+
+            <div class="btn-mobile-menu-open-container">
+                <span class="btn-mobile-menu-open"><span></span></span>
+                <span class="item-text">Menu</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="hero">
+        <div class="hero-slider-container">
+            <div class="hero-slider">
+                <div class="hero-slide" style="background-image: url('img/1.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('img/2.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('img/3.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('img/4.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('img/5.jpg')"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-slogan">
+                    <span class="dot-end">Dnes</span> <span class="dot-end">Ne zítra</span>
+                </div>
+                <h2 class="hero-subtitle">KREATIVNÍ KONFERENCE O PODNIKÁNÍ</h2>
+                <h1 class="hero-title">#zlinskybarcamp</h1>
+                <span class="hero-date">21. dubna 2018 od 9:00</span>
+                Univerzita Tomáše Bati ve Zlíně
+
+                <div class="hero-numbers">
+                    <div class="item">
+                        <span class="item-number">300<span>+</span></span> účastníků
+                    </div>
+                    <div class="item">
+                        <span class="item-number">20<span>+</span></span> přednášek
+                    </div>
+                    <div class="item">
+                        <span class="item-number">12</span> workshopů
+                    </div>
+                    <div class="item">
+                        <span class="item-number">1</span> afterparty
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-lg btn-brand btn-section">Registrace</a>
+                    <a href="#" class="btn btn-lg btn-default-bordered btn-section">Vypsat přednášku</a>
+                </div>
+
+                <span class="hero-note">Už se přihlásilo <span>219</span> účastníků a je vypsáno <span>32</span> přednášek</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="icons-info">
+        <div class="item">
+            <span class="icon icon-calendar"></span>
+            <b>21. dubna 2018</b><br />
+            9:00 - 17:00
+        </div>
+        <div class="item">
+            <span class="icon icon-placeholder"></span>
+            <b>Univerzita Tomáše Bati</b><br />
+            nám. T. G. Masaryka 5555<br />
+            <a href="#">Zobrazit na mapě</a>
+        </div>
+        <div class="item">
+            <span class="icon icon-transport"></span>
+            <b>Parkoviště</b> s celkovou<br />
+            kapacitou 60 míst
+        </div>
+        <div class="item">
+            <span class="icon icon-cutlery"></span>
+            <b>Malé občerstvení zajištěno</b><br />
+            + v okolí jsou skvělé restaurace
+        </div>
+        <div class="item">
+            <span class="icon icon-meeting"></span>
+            <b>Doprovodný program: Kulaté stoly</b><br />
+            nad tématikou vzdělávání k podnikání
+        </div>
+    </div>
+
+    <section>
+        <div class="wrapper bg-gray">
+            <div class="container-wide text-center">
+                <h1><span class="dot-end" id="schedule-scroll-point">Harmonogram</span></h1>
+                <div class="perex">Barcamp v České republice snad už nemusíme představovat. Tenhle je přesto speciální. Jako první se zaměřuje na téma podnikání.</div>
+
+                <div class="schedule-container" id="schedule">
+
+                    <div class="overlay"></div>
+
+                    <ul class="schedule">
+                        <li>
+                            <div class="progress progress-start" style="width: 60%;height: 60%"></div>
+                            <span class="item-circle done">
+                                <span class="icon icon-check"></span>
+                            </span>
+                            <div class="item-content disabled">
+                                <span class="item-title">Začátek registrací přednášek</span>
+                                Své přednášky můžete vypsat do 23.11. 23:59
+                                <div>
+                                    <span class="btn btn-action btn-sm">Vypsat přednášku</span>
+                                </div>
+                            </div>
+                            <div class="progress" style="width: 100%;height: 100%"></div>
+                        </li>
+                        <li>
+                            <span class="item-circle done">
+                                <span class="icon icon-check"></span>
+                            </span>
+                            <div class="item-content disabled">
+                                <span class="item-title">Začátek registrací na akci</span>
+                                Registraci spouštíme za 12 dní (3.12. od 8:00)
+                                <div>
+                                    <span class="btn btn-action btn-sm">Chci se registrovat</span>
+                                </div>
+                            </div>
+                            <div class="progress" style="width: 100%;height: 100%"></div>
+                        </li>
+                        <li>
+                            <span class="item-circle done">
+                                03
+                            </span>
+                            <div class="item-content">
+                                <span class="item-title">Mezní termín pro vypsání přednášky</span>
+                                Své přednášky můžete vypsat do 23.11. 23:59
+                                <div>
+                                    <a href="#" class="btn btn-action btn-sm">Vypsat přednášku</a>
+                                </div>
+                            </div>
+                            <div class="progress active" style="width: 60%;height: 60%"></div>
+                        </li>
+                        <li>
+                            <span class="item-circle">
+                                04
+                            </span>
+                            <div class="item-content">
+                                <span class="item-title">Začátek registrací přednášek</span>
+                                Své přednášky můžete vypsat do 23.11. 23:59
+                                <div>
+                                    <span class="btn btn-action btn-sm disabled">Hlasovat</span>
+                                </div>
+                            </div>
+                            <div class="progress" style="width: 0;height: 0"></div>
+                        </li>
+                        <li>
+                            <span class="item-circle">
+                                05
+                            </span>
+                            <div class="item-content">
+                                <span class="item-title">Začátek registrací přednášek</span>
+                                Své přednášky můžete vypsat do 23.11. 23:59
+                                <div>
+                                    <span class="btn btn-action btn-sm disabled">Jak se na akci dostanu?</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="container-wide text-center">
+                <h1><span class="dot-end">Registrace</span></h1>
+
+                <div class="signup-buttons">
+                    <div class="signup-button visitor">
+                        <div class="item-icon">
+                            0<span class="currency">Kč</span>
+                        </div>
+
+                        <span class="item-title">Chci se účastnit</span>
+
+                        <div>
+                            <span class="item-number">219</span> přihlášených účastníků.<br />
+                            Zbývá <span class="item-number">81</span> volných míst.
+                        </div>
+
+                        <a href="#" class="btn btn-sm btn-action">CHCI PŘIJÍT NA BARCAMP</a>
+                    </div>
+
+                    <div class="signup-button">
+                        <div class="item-icon">
+                            <span class="icon icon-music"></span>
+                        </div>
+
+                        <span class="item-title">Chci přednášet</span>
+
+                        <div>
+                            <b>107 přednášek v hlasování a 60 z nich v programu.</b><br />
+                            Přednášky můžete vypsat do 31.1 2018, 23:59.
+                        </div>
+
+                        <a href="#" class="btn btn-sm btn-action">CHCI VYPSAT PŘEDNÁŠKU</a>
+                    </div>
+                </div>
+
+                FACEBOOK PLUGIN
+
+                <div class="form-newsletter">
+                    <span class="item-title">Chceš o všem vědět jako první?</span>
+                    <span class="text-md">Nech nám e-mail nebo nás sleduj na sociálních sítích.</span>
+
+                    <form class="mt-md">
+                        <div class="form-row">
+                            <input type="email" placeholder="Tvoje emailová adresa">
+                        </div>
+                        <div class="form-row">
+                            <div class="checkbox">
+                                <input type="checkbox" id="ch1"/>
+                                <label for="ch1">
+                                    Souhlasím se zpracováním osobních údajů de zákona č. 101/2000 Sb.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-action btn-block">Přihlásit odběr</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="social">
+                    <a href="#" class="item">
+                        <span class="icon icon-facebook"></span>
+                        Facebook
+                    </a>
+                    <a href="#" class="item">
+                        <span class="icon icon-twitter-1"></span>
+                        Twitter
+                    </a>
+                    <a href="#" class="item">
+                        <span class="icon icon-youtube"><span class="path1"></span><span class="path2"></span></span>
+                        Youtube
+                    </a>
+                    <a href="#" class="item">
+                        <span class="icon">
+                            <img src="img/instagram.svg" alt="instagram" width="50" height="50">
+                        </span>
+                        Instagram
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="container text-center">
+                <h1 class="program-heading"><span class="icon icon-calendar"></span><span class="dot-end">Program</span></h1>
+                <p>Konference zlínský Barcampu nabízí 3 přednáškové sály. Přednáškové sály jsou doplněny dvěma workshopovými místnostmi.<br />
+                    Všechny přednášky jsou volně přístupné pro účastníky konference. A bude spoustu prostoru pro networking.</p>
+
+
+                <div id="program">
+                    <ul class="tabs">
+                        <li>
+                            <a href="#main-program">
+                                <span class="item-heading">Program Barcampu</span>
+                                21. ledna 2018
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#side-program">
+                                <span class="item-heading">Doprovodný program</span>
+                                Kulaté stoly: vzdělávání k podnikání
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div id="main-program">
+
+                        <div class="program-filter js-program-filter">
+                            <div class="checkbox">
+                                <input type="checkbox" id="f1" name="filter-main" value="*" checked class="check-all"/>
+                                <label for="f1"><span></span>Všechny kategorie</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="f2" name="filter-main" value="marketing"/>
+                                <label for="f2"><span></span>Marketing a média</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="f3" name="filter-main" value="leadership"/>
+                                <label for="f3"><span></span>Leadership</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="f4" name="filter-main" value="podnikani"/>
+                                <label for="f4"><span></span>Podnikání na volné noze</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="f5" name="filter-main" value="teambuilding"/>
+                                <label for="f5"><span></span>Teambuilding</label>
+                            </div>
+                        </div>
+
+                        <div class="program-wrapper">
+                            <ul class="timerows timerows-mobile">
+                                <li>
+                                    <span class="time">09:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">10:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">11:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">12:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">13:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">14:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">15:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">16:00</span>
+                                </li>
+                                <li>
+                                    <span class="time">17:00</span>
+                                </li>
+                            </ul>
+
+                            <div class="program-container">
+
+                                <ul class="timerows">
+                                    <li>
+                                        <span class="time">09:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">10:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">11:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">12:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">13:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">14:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">15:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">16:00</span>
+                                    </li>
+                                    <li>
+                                        <span class="time">17:00</span>
+                                    </li>
+                                </ul>
+
+                                <div class="program js-program-filtered">
+
+                                    <div class="item-header-container">
+                                        <div class="item-header program-header">
+                                            <div class="hall">
+                                                <span class="item-heading">Přednáškový sál: Jednadvacítka</span>
+                                            </div>
+                                            <div class="hall">
+                                                <span class="item-heading">Přednáškový sál: Baťa</span>
+                                            </div>
+                                            <div class="hall">
+                                                <span class="item-heading">Přednáškový sál: Podnikavý Zlín</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hall">
+                                        <a href="#" class="program-item t60 podnikani style1">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Čtyřhodinový pracovní týden v praxi aneb jak si udělat čas</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Martin Dostál (Redbit s.r.o)</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">09:00 - 10:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="program-item t60 marketing style2">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Co všechno je UX (při návrhu webu)</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Michal Mrskoč</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">10:00 - 11:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="program-item t30">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Coffee break</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author"><span class="icon icon-coffee-cup"></span></span>
+
+                                                    <div class="hover">
+                                                        <span class="time">11:00 - 11:30</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="program-item t40 marketing style2">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Web odstrý jako břitva</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Jan Řezáč (House of Řezáč)</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">11:30 - 12:10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="program-item t50 empty"></div>
+                                        <div class="program-item t60">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Přestávka na oběd</h3>
+
+                                                <span class="icon icon-cutlery"></span>
+
+                                                <div class="item-footer">
+                                                    <div class="hover">
+                                                        <span class="time">13:00 - 14:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="program-item t60 marketing style2">
+                                            <div class="item-content">
+                                                <h3 class="item-title">5 zaručených receptů, jak vybudovat úspěšný e-shop</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Valdimír Přichystal (Heureka)</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">14:00 - 15:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="hall">
+                                        <a href="#" class="program-item t60 leadership style3">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Jak zvládnout team a nezbláznit se z toho</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Jan Novák</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">09:00 - 10:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="program-item t60 empty"></div>
+                                        <div class="program-item t30">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Coffee break</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author"><span class="icon icon-coffee-cup"></span></span>
+
+                                                    <div class="hover">
+                                                        <span class="time">11:00 - 11:30</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="program-item t90 podnikani style1">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Webináře, online kurzy a knihy, které
+                                                    posunou Vaše podnikání o míle kupředu</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Edita Dostálová (Redbit s.r.o.)</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">11:30 - 13:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="program-item t60">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Přestávka na oběd</h3>
+
+                                                <span class="icon icon-cutlery"></span>
+
+                                                <div class="item-footer">
+                                                    <div class="hover">
+                                                        <span class="time">13:00 - 14:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="program-item t60 empty"></div>
+                                        <a href="#" class="program-item t60 marketing style2">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Trable při tvorbě e-shopu. S čím
+                                                    zadavatelé často nepočítají a kde narážejí</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Michalis Katapodis</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">15:00 - 16:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="hall">
+                                        <a href="#" class="program-item t60 marketing style2">
+                                            <div class="item-content">
+                                                <h3 class="item-title">5 zaručených receptů, jak vybudovat
+                                                    úspěšný e-shop</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Valdimír Přichystal (Heureka)</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">09:00 - 10:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="program-item t10 empty"></div>
+                                        <a href="#" class="program-item t50 teambuilding style4">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Bidding ve vyhledávačích zboží tajemství
+                                                    zbavený</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Jiří Guňka</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">10:10 - 11:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="program-item t30">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Coffee break</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author"><span class="icon icon-coffee-cup"></span></span>
+
+                                                    <div class="hover">
+                                                        <span class="time">11:00 - 11:30</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="program-item t90 empty"></div>
+                                        <div class="program-item t60">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Přestávka na oběd</h3>
+
+                                                <span class="icon icon-cutlery"></span>
+
+                                                <div class="item-footer">
+                                                    <div class="hover">
+                                                        <span class="time">13:00 - 14:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="program-item t60 empty"></div>
+                                        <div class="program-item t60 empty"></div>
+                                        <a href="#" class="program-item t60 teambuilding style4">
+                                            <div class="item-content">
+                                                <h3 class="item-title">Jak probíhá vývoj služeb u největší
+                                                    hostingové společnosti v Česku</h3>
+
+                                                <div class="item-footer">
+                                                    <span class="author">Josef Grill (WEDOS)</span>
+
+                                                    <div class="hover">
+                                                        <span class="btn">Chci přijít</span>
+                                                        <span class="time">16:00 - 17:00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-sm mt-sm">
+                            17:00 - 22:00 &nbsp; <span class="text-action text-xl icon-wine-glass"></span> &nbsp; <b>Afterparty:</b>  Provoz Hlubina, Vítkovická 1708/17, Zlín
+                        </div>
+
+                    </div>
+
+
+                    <div id="side-program">
+                        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="wrapper bg-gray">
+            <div class="container">
+                <h1><span class="dot-end">Speakři</span></h1>
+
+                <ul class="row people-list mt-md">
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/10.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Jan Řezáč</h2>
+                                <span class="item-meta">House of Řezáč</span>
+                                <div class="item-text">Konzultant webů</div>
+                                <span class="item-link">Váš e-shop očima Vašich zákazníků Chytrý marketing e-shopu pomocí...</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/11.jpg')">
+                                <span class="item-tip">Náš tip</span>
+                            </div>
+                            <div class="item-content">
+                                <h2 class="item-title">Ing. Jan Kvasnička</h2>
+                                <span class="item-meta">Profesionál na volné noze</span>
+                                <div class="item-text">Analýzy použitelnosti, zvyšování
+                                    konverzního poměru</div>
+                                <span class="item-link">Chyby v AB testování</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/12.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Lucie Výborná</h2>
+                                <span class="item-meta">Český rozhlas</span>
+                                <div class="item-text">Televizní moderátorka a novinářka,
+                                    autorka knihy Fit maminka</div>
+                                <span class="item-link">Jak vyřídit reklamaci a nechybovat</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/13.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Michal Motl</h2>
+                                <span class="item-meta">OSVČ</span>
+                                <div class="item-text">specialista na internetový marketing
+                                    pro weby a e-shopy</div>
+                                <span class="item-link">Jak probíhá vývoj služeb u největší hostingové společnosti v Česku</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/14.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Dan Přibáň</h2>
+                                <span class="item-meta">Transtrabant</span>
+                                <div class="item-text">Novinář, filmový režisér a cestovatel</div>
+                                <span class="item-link">Výkonnostní marketing na Facebooku</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/15.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Robert Vlach</h2>
+                                <span class="item-meta">Na volné noze</span>
+                                <div class="item-text">Podnikatel, konzultant, lektor
+                                    podnikání na volné noze</div>
+                                <span class="item-link">Moderní trendy ve vyhledávání nejen pro affiliate</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/16.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Mgr. Jana Dolejšová</h2>
+                                <span class="item-meta">Profesionál  na volné noze</span>
+                                <div class="item-text">Specialistka na marketing služeb
+                                    a lektorka</div>
+                                <span class="item-link">Ako vytvoriť úspešnú značku bez veľkej investície</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item">
+                            <div class="item-image" style="background-image: url('img/17.jpg')"></div>
+                            <div class="item-content">
+                                <h2 class="item-title">Lucie Radová</h2>
+                                <span class="item-meta">OSVČ</span>
+                                <div class="item-text">Novinářka a cestovatelka</div>
+                                <span class="item-link">Jak vyřídit reklamaci a nechybovat</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="text-center mt-xs">
+                    <a href="#" class="btn btn-brand btn-section mt-xs">Zobrazit všechny přednášející</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="lg"><span class="dot-end">Faq</span></h1>
+
+                <div class="row pure-g pure-p mt-lg">
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <ul class="accordion-list">
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Co to je Barcamp?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Pro koho je Barcamp určen?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Je účast na konferenci Barcamp zpoplatněna?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Je nezbytné se registrovat?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Jak se dostanu na místo konání?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Jaké jsou možnost parkování?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-2">
+                        <ul class="accordion-list">
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Je na akci zajištěno občerstvení?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Co s sebou?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Připojím se?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Co je za mříží?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Jaké jsou možnosti ubytování?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="accordion-heading">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">Je akce kuřácká?</span>
+                                </h3>
+                                <div class="accordion-content">
+                                    Organizátoři ubytování nezajišťují, nicméně vám mailem
+                                    před akcí pošleme tipy na vhodná ubytování v blízkosti
+                                    konání akce.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper bg-gray">
+            <div class="container-condensed text-center">
+                <h1 class="lg"><span class="dot-end">Co se děje</span></h1>
+                <div class="perex">Jak začít podnikat a přežít? Chcete slyšet příběhy úspěšných i „fuck ups“?<br />
+                    Nebo Vás zajímají detaily z učetnictví nebo byznys plánování?</div>
+            </div>
+
+            <div class="container-wide">
+                <ul class="row list-articles">
+                    <li>
+                        <div class="item">
+                            <a href="#" class="item-image">
+                                <img src="img/6.jpg" alt="název článku">
+                            </a>
+                            <h2 class="item-title">
+                                <a href="#">Kulaté stoly nad tématikou vzdělávání k podnikání</a>
+                            </h2>
+                            <div class="item-text">
+                                Setkání odborníků z oblasti vzdělávání podnikání, investorů
+                                a firem spolupracujících se školami, neziskových organizací
+                                vysokých a středních škol a také úředníků.
+                            </div>
+                            <a href="#" class="link-arrow">Více informací</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <a href="#" class="item-image">
+                                <img src="img/7.jpg" alt="název článku">
+                            </a>
+                            <h2 class="item-title">
+                                <a href="#">Projekt Podnikání na FaME</a>
+                            </h2>
+                            <div class="item-text">
+                                Podnikání je cesta, kterou se chceš vydat? Nejen tento Barcamp,
+                                ale i další skvělé věci můžeš zažít v rámci kurzu Základy
+                                podnikání na UTB.
+                            </div>
+                            <a href="#" class="link-arrow">Více informací</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <a href="#" class="item-image">
+                                <img src="img/8.jpg" alt="název článku">
+                            </a>
+                            <h2 class="item-title">
+                                <a href="#">Město Zlín, Tomáš Baťa a historie</a>
+                            </h2>
+                            <div class="item-text">
+                                Zlín je statutární město na východě Moravy. Leží v údolí řeky
+                                Dřevnice na rozhraní Hostýnských a Vizovických vrchů.
+                                Je centrem Zlínského kraje a má přibližně 75 tisíc obyvatel.
+                            </div>
+                            <a href="#" class="link-arrow">Více informací</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <a href="#" class="item-image">
+                                <img src="img/9.jpg" alt="název článku">
+                            </a>
+                            <h2 class="item-title">
+                                <a href="#">Kde se dobře najíst a napít: Zlínské kavárny
+                                    a restaurace</a>
+                            </h2>
+                            <div class="item-text">
+                                V Zlíně jdete na jistotu, protože s námi vybíráte z těch nejlepších
+                                restaurací. Hledáte indickou restauraci nebo pizzerii? Víme, kde
+                                na vás čekají ty nejlepší pochoutky.
+                            </div>
+                            <a href="#" class="link-arrow">Více informací</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="text-center mt-xs">
+                    <a href="#" class="btn btn-brand btn-section">Zobrazit všechny informace</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="container text-center">
+                <h1 class="lg"><span class="dot-end">Partneři</span></h1>
+
+                <div class="partners">
+                    <div class="text-gray text-normal mt-sm">Generální partner</div>
+                    <a href="#"><img src="img/partners/bata.png" alt="Baťa"></a>
+
+                    <div class="text-gray text-normal mt-sm">Hlavní partneři</div>
+                    <a href="#"><img src="img/partners/zlin.png" alt="Zlín"></a>
+                    <a href="#"><img src="img/partners/utb.png" alt="Univerzita Tomáše Bati"></a>
+
+                    <div class="text-gray text-normal mt-sm">Mediální partneři</div>
+                    <img src="img/partners/medialni.png" alt="Mediální partneři">
+                </div>
+
+                <a href="#" class="link-arrow text-brand mt-md text-sm">Staňte se také partnerem zlínského Barcampu</a>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="cta-twitter">
+        <div class="container-condensed">
+            <span class="icon icon-twitter"></span>
+
+            Kreativní a inspirativní workshop <a href="#"><b>@JirkaCh</b></a> na téma prezentace produktů
+            a služeb byl supr Kdo nestihl, odpo je další. <a href="#"><b>#zlinskybarcamp</b></a><br />
+            <a href="#" class="link-barcamp"><b>http://zlinskybarcamp.cz</b></a>
+
+            <div class="item-note">Sledujte <a href="#" class="link-barcamp"><b>#zlinskybarcamp</b></a> pro více informací</div>
+        </div>
+    </div>
+
+    <div class="cta-instagram">
+        <div class="container-condensed">
+
+            <div class="marquee">
+                <div class="item"></div>
+                <div class="item item2"></div>
+            </div>
+
+            <div class="item-content">
+                <span class="icon icon-instagram"></span>
+
+                <span class="item-title">Barcamp Memories 2017</span>
+                <b>Sledujte letošní ročník <a href="#" class="link-barcamp">#zlinskybarcamp</a> na Instagramu.</b>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+
+
+<footer>
+    <div class="footer">
+        <div class="container">
+
+            <div class="row pure-g pure-p">
+                <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+                    <h4 class="footer-title">Registrace</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Registrovat se přes Facebook</a></li>
+                        <li><a href="#">Registrovat se přes Twitter</a></li>
+                        <li><a href="#">Registrovat se e-mailem</a></li>
+                    </ul>
+                </div>
+                <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+                    <h4 class="footer-title">Přednášející</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Hlasovat pro přednášejícího</a></li>
+                        <li><a href="#">Vypsat svou přednášku</a></li>
+                    </ul>
+                </div>
+                <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+                    <h4 class="footer-title">Kontakt</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Chci být partner zlínského Barcampu</a></li>
+                        <li><a href="#">Chci být dobrovolník</a></li>
+                        <li><a href="#">O nás</a></li>
+                        <li><a href="#">Všechny kontakty</a></li>
+                    </ul>
+                </div>
+                <div class="pure-u-1 pure-u-sm-1-2 pure-u-md-1-4">
+                    <h4 class="footer-title">Ke stažení</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#">Tisková zpráva (PDF)</a></li>
+                        <li><a href="#">Program (PDF)</a></li>
+                        <li><a href="#">Logo (ZIP)</a></li>
+                        <li><a href="#">Záštita UTB</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                Jsme lapeni v sítích
+
+                <a href="#" class="item">
+                    <span class="icon icon-facebook"></span>
+                </a>
+                <a href="#" class="item">
+                    <span class="icon icon-twitter-1"></span>
+                </a>
+                <a href="#" class="item">
+                    <span class="icon icon-youtube"><span class="path1"></span><span class="path2"></span></span>
+                </a>
+                <a href="#" class="item">
+                    <span class="icon">
+                        <img src="img/instagram.svg" alt="instagram" width="32" height="32">
+                    </span>
+                </a>
+            </div>
+
+            <div class="footer-copyright">
+                © 2017 Zlínský Barcamp   |   Webdesign Roman Káčerek
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
